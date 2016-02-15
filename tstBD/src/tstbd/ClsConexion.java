@@ -369,8 +369,10 @@ public class ClsConexion
     public static void main(String[] args)
     {
        //System.out.println("Hola...");
-        int intPrueba[] = {1,5,4,6,2,7,2};
-        int i,n = 7;
+        //int intPrueba[] = {1,5,4,6,2,7,2};
+        int intPrueba[] = {2};
+        //int i,n = 1;
+        int i,n = 1;
         java.sql.ResultSet r = null;
         java.util.TreeMap colCampos = null;
         
@@ -433,7 +435,7 @@ public class ClsConexion
                          colCampos.put("apMaterno",
                                         new ClsCampoBD("apMaterno","apMaternoModificado" ,ClsCampoBD.TIPO_VARCHAR,"apMaternoNo. 1")); 
                          colCampos.put("nombre",
-                                        new ClsCampoBD("nombre","",ClsCampoBD.TIPO_VARCHAR,"N�mero 1")); 
+                                        new ClsCampoBD("nombre","",ClsCampoBD.TIPO_VARCHAR,"Número 1")); 
                          colCampos.put("cu",new ClsCampoBD("cu","2525",ClsCampoBD.TIPO_INTEGER,"10001")); 
                          c.modificaReg("tblAlumnos",colCampos );
                          //System.out.println(c.impRS(r));
