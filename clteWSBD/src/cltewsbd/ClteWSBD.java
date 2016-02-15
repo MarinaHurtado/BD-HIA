@@ -17,7 +17,9 @@ public class ClteWSBD {
     
     
     public static void main(String[] args) {
-        System.out.println(consultAlumnos());
+        for(int i=0; i<=50; i++){
+            System.out.println(consultAlumnos());
+        }
     }
 
     private static String consultAlumnos() {
